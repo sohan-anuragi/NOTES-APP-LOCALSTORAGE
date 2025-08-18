@@ -30,4 +30,4 @@ JavaScript: For all interactive functionality, including DOM manipulation and Lo
 Author
 Made with passion by Sohan Anuragi ❤️
 
-![image description] (img1.png)
+![image description](img1.png)
