@@ -1,4 +1,5 @@
-Notes App 📝
+                                                                Notes App 📝
+
 A simple and intuitive notes application built with pure HTML, CSS, and JavaScript. This project allows users to create, save, and manage their notes effortlessly right in their browser.
 
 ✨ Key Features
@@ -28,3 +29,5 @@ JavaScript: For all interactive functionality, including DOM manipulation and Lo
 
 Author
 Made with passion by Sohan Anuragi ❤️
+
+![image description] (img1.png)
