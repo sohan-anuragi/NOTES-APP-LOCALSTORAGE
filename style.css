@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(226, 232, 232);
+}
+
+.heading-buttton{
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.heading-buttton h2{
+    display: inline-block;
+    color: rgb(4, 4, 41);
+    font-size: 30px;
+}
+
+.heading-buttton .btn #add-btn{
+    background-color: rgb(135, 92, 244);
+    color: white;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.heading-buttton .btn #theme-btn{
+    background-color: rgb(240, 78, 13);
+    color: white;
+    padding: 15px 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* STYLING FOR NOTES CONTAINER */
+
+.notes-container {
+    margin-left: 35px;
+    margin-right:35px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+/* STYLING FOR NOTES CONTAINER BOX */
+
+.notes-container .box1{
+    width: 24%;
+    min-height: 400px;
+    border: 2px sold black;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+
+.notes-container .box1 h3{
+    padding: 20px;
+    font-size: 1rem;
+   
+    
+}
+
+.notes-container .box1 .noteContent{
+    padding: 20px;
+    min-height: 250px;
+    color: rgb(7, 7, 61);
+    line-height: 1.5;
+
+}
+
+
+
+
+
+
+    
+
+
+/* STYLING FOR INPUT - NOTES */
+
+/* .input-note{
+    width: 100%;
+    max-width: 400px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+
+} */
+
+
+.notes-container .removeBtn{
+    background-color: rgba(249, 71, 1, 0.829);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 30%;
+    margin-top: 30px;
+    position: relative;
+    left: 35%;
+    border-radius: 5px;
+    font-size: 80%;
+    cursor: pointer;
+
+}

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parent-container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 100;
+}
+
+.input-note{
+    width: 100%;
+    max-width: 400px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    padding: 30px 30px 10px 30px;
+}
+
+.edit-cross{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.edit-cross h3{
+    display: inline-block;
+}
+
+.edit-cross .cross{
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.edit-cross .cross:hover{
+    background-color: rgb(240, 235, 235);
+}
+
+.write-title{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(237, 236, 236);
+    border: none;
+    outline: none;
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.743);
+}
+
+.write-content{
+    padding: 20px;
+    background-color:  rgb(240, 235, 235);
+    border: none;
+    outline: none;
+    width: 350px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.743);
+}
+
+.save-note{
+    padding: 10px;
+    background-color: rgb(135, 92, 244);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 130px;
+    margin-top: 25px;
+    width: 150px;
+}
