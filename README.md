@@ -2,7 +2,7 @@
 
 A simple and intuitive notes application built with pure HTML, CSS, and JavaScript. This project allows users to create, save, and manage their notes effortlessly right in their browser.
 
-                                  ✨ Key Features
+                                   ✨ Key Features
                                                                   
 Create & Save Notes: Quickly add new notes with a title and content.
 
