@@ -41,7 +41,7 @@ changeTheme.addEventListener("click", () => {
             allContent.style.color = "white";
         }
      })
-
+    saveData();
 });
 
 
@@ -123,11 +123,38 @@ cross.addEventListener("click", () => {
 
 function saveData(){
     localStorage.setItem("data",notesContainer.innerHTML);
+    
 }
 
 function showData(){
     notesContainer.innerHTML = localStorage.getItem("data");
+
+     if (bodyTag.style.backgroundColor === "rgb(226, 232, 232)") {
+        bodyTag.style.backgroundColor = "rgba(18, 17, 17, 1)";
+        topHeading.style.color = "white";
+    } else {
+        bodyTag.style.backgroundColor = "rgb(226, 232, 232)";
+        topHeading.style.color = "black";
+    }
+     let allNewNotes = document.querySelectorAll(".box1");
+     allNewNotes.forEach((a) => {
+         let allHeadings = a.querySelector(".noteHeading");
+         let allContent  = a.querySelector(".noteContent")
+
+        if(bodyTag.style.backgroundColor === "rgb(226, 232, 232)") {
+            a.style.backgroundColor = "white";
+            allHeadings.style.color = "black";
+            allContent.style.color = "black";
+
+        }
+        else{
+            a.style.backgroundColor = "rgba(44, 41, 41, 1)";
+            allHeadings.style.color  = "white";
+            allContent.style.color = "white";
+        }
+     })
 }
+
 
 showData();
 
