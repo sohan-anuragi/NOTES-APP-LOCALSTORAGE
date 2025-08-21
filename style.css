@@ -59,7 +59,8 @@ body{
 /* STYLING FOR NOTES CONTAINER BOX */
 
 .notes-container .box1{
-    width: 24%;
+    min-width: 300px;
+    max-width: 350px;
     min-height: 400px;
     border: 2px sold black;
     background-color: white;
